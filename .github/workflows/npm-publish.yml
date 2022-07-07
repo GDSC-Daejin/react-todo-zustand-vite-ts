@@ -13,13 +13,13 @@ jobs:
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org
-      - run: npm install
+      - run: yarn install
       - name: version up
         run: |
           git config --global user.name 'hyeoke0'
           git config --global user.email jhjeong00@gmail.com
-          npm release
+          yarn release
           git push --follow-tags origin master
-      - run: npm run publish
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
