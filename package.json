@@ -2,6 +2,7 @@
   "name": "react-vite-todo-boilerplate",
   "private": false,
   "version": "0.1.1",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -34,6 +35,5 @@
     "prettier": "^2.5.1",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
-  },
-  "license": "MIT"
+  }
 }
