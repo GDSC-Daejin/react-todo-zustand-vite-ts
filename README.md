@@ -1,4 +1,10 @@
-# Vite + React + Eslint + Prettier Boilerplate
+# Vite + React + Zustand + Eslint Boilerplate
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/61281239/177843432-fa16e0b3-cb3e-4fc5-808e-8becce751d12.png" />
+</p>
+
+
 
 ## Getting Started
 
