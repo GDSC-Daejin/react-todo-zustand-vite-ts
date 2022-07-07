@@ -3,6 +3,12 @@
 ## Getting Started
 
 ```bash
+ > npx react-vite-todo-boilerplate my-project
+```
+
+or
+
+```bash
 > git clone https://github.com/GDSC-Daejin/react-vite-todo-boilerplate
 > npm install
 ```
