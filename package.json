@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "standard-version"
   },
   "author": "JunHyeok <jhjeong00@gmail.com>",
   "bin": "./bin/react-vite-todo-boilerplate.js",
