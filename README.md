@@ -5,7 +5,7 @@
 ## Getting Started
 
 ```bash
-> git clone https://github.com/GDSC-Daejin/react-vite-boilerplate-ts
+> git clone https://github.com/GDSC-Daejin/react-vite-todo-boilerplate
 > npm install
 ```
 ```bash

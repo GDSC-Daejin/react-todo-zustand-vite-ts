@@ -1,12 +1,14 @@
 {
-  "name": "vite-react-boilerplate-ts",
-  "private": true,
-  "version": "0.0.0",
+  "name": "react-vite-todo-boilerplate",
+  "private": false,
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "author": "JunHyeok <jhjeong00@gmail.com>",
+  "bin": "./bin/react-vite-todo-boilerplate.js",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
