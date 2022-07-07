@@ -1,7 +1,5 @@
 # Vite + React + Eslint + Prettier Boilerplate
 
-> GDSC DJU 멤버 분들을 위한 TODO 보일러 플레이트입니다.
-
 ## Getting Started
 
 ```bash
@@ -18,11 +16,13 @@ TODO의 추가, 삭제, 업데이트 같은 함수는 모두 구현이 되어있
 ## Stack
 
 - React.js + TypeScript
-- Vite
+- (Vite)[https://vitejs-kr.github.io/]
 - Eslint
 - Prettier
 - Styled-Components (CSS in JS)
-- Zustand (상태관리)
+- (Zustand (상태관리))[https://zustand.surge.sh/]
+
+
 
 ## Folder Structure
 
