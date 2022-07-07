@@ -1,0 +1,25 @@
+name: Node.js Package
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 18
+          registry-url: https://registry.npmjs.org
+      - run: yarn install
+      - name: version up
+        run: |
+          git config --global user.name 'hyeoke0'
+          git config --global user.email jhjeong00@gmail.com
+          yarn release
+          git push --follow-tags origin master
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
