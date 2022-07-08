@@ -10,6 +10,8 @@
 
 ```bash
  > npx react-vite-todo-boilerplate my-project
+ > yarn && yarn install
+ > yarn dev && vite 
 ```
 
 or
@@ -17,8 +19,6 @@ or
 ```bash
 > git clone https://github.com/GDSC-Daejin/react-vite-todo-boilerplate
 > yarn && yarn install
-```
-```bash
 > yarn dev && vite
 ```
 
