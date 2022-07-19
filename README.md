@@ -10,16 +10,16 @@
 
 ```bash
  > npx react-vite-todo-boilerplate my-project
+ > yarn && yarn install
+ > yarn dev && vite 
 ```
 
 or
 
 ```bash
 > git clone https://github.com/GDSC-Daejin/react-vite-todo-boilerplate
-> npm install
-```
-```bash
-> npm run dev && vite
+> yarn && yarn install
+> yarn dev && vite
 ```
 
 TODO의 추가, 삭제, 업데이트 같은 함수는 모두 구현이 되어있으나 수정기능의 경우 Component에 적용해두지 않았습니다.
